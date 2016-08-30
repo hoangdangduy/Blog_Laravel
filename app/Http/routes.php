@@ -14,6 +14,7 @@
 
 //Route::group(['middleware' => ['web']], function(){
 // test
+// test2
 //});
 Route::get('/', [
     'uses' => 'PostController@getBlogIndex',
