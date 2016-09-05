@@ -49,7 +49,7 @@
 
 @section('scripts')
     <script type="text/javascript">
-        var token = '{{ Session::token() }}';
+        var token = "{{ Session::token() }}";
     </script>
     <script type="text/javascript" src="{{ URL::to('src/js/categories.js') }}"></script>
 @endsection

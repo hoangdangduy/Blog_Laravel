@@ -32,24 +32,24 @@ h3 {
     padding: 4px 6px;
     background-color: #8900c6;
     color: white;
-    transition: backgound-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .btn.danger {
     color: #e5003c;
     border: 1px solid #e5003c;
-    backgound-color: #ffc4be;
+    background-color: #ffc4be;
 }
 
 .btn.danger:hover,
 .btn.danger:active {
-    backgound-color: #e5003c;
+    background-color: #e5003c;
     color: white;
 }
 
 .btn:hover,
 .btn:active {
-    backgound-color: white;
+    background-color: white;
     color: #8900c6;
 }
 

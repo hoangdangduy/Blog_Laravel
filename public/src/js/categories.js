@@ -111,11 +111,9 @@ function ajax(method, url, params, callback, callbackParams){
     http.onreadystatechange = function() {
         if (http.readyState == XMLHttpRequest.DONE) {
             if (http.status == 200) {
-                alert("200");
                 var obj = JSON.parse(http.responseText);
                 callback(callbackParams, true, obj);
             }else if (http.status == 404) {
-                alert("404");
                 alert("Category could not be saved. Please try again.");
                 callback(callbackParams, false);
             }else {

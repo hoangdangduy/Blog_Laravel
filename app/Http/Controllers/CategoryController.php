@@ -46,8 +46,7 @@ class CategoryController extends Controller
     public function getDeleteCategory($category_id)
     {
         $category = Category::find($category_id);
-        var_dump($category);
         $category->delete();
-        return Response::json(['message' => 'Category updated.'], 404);
+        return Response::json(['message' => 'Category updated.'], 200);
     }
 }
